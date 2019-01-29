@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_r-oc8SLIEem98pF5iOPqqw" name="customeronboarding.JDBCConnectionResource" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_r-1RQCLIEem98pF5iOPqqw" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_r-1RQSLIEem98pF5iOPqqw" username="tibco" password="#!XFsH+tlz8UAgCN5hCD2GML0We+qsEe8qlkPH+0dScOQ=">
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_r-3GcCLIEem98pF5iOPqqw" jdbcDriver="tibcosoftwareinc.jdbc.postgresql.PostgreSQLDriver" dbURL="jdbc:tibcosoftwareinc:postgresql://postgres.c7hcav6marm8.us-east-1.rds.amazonaws.com:5432;DatabaseName=postgres"/>
+  </jndi:configuration>
+</jndi:namedResource>

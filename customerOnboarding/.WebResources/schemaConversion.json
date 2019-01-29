@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/customerOnboarding/Service Descriptors/customeronboarding.Orchestration-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1548653320593"
+    },
+    {
+        "jsonSchemaLocation": "/customerOnboarding/Service Descriptors/customeronboarding.Orchestration-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1548653493048"
+    }
+]}
